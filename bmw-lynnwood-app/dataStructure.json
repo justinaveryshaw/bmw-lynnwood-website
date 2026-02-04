@@ -1,0 +1,17 @@
+{
+    "categories": [
+        {
+            "title": "New / Used",
+            "options": [
+                {
+                    "display": "New",
+                    "isSelected": true
+                },
+                {
+                    "display": "Used",
+                    "isSelected": false
+                }
+            ]
+        }
+    ]
+}
