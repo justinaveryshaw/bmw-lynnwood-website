@@ -59,9 +59,14 @@
         },
         "serve": {
           "builder": "@angular/build:dev-server",
+          "options": {
+            "buildTarget": "bmw-lynwood-app:build:development",
+            "proxyConfig": "proxy.conf.json"
+          },
           "configurations": {
             "production": {
-              "buildTarget": "bmw-lynnwood-app:build:production"
+              "buildTarget": "bmw-lynnwood-app:build:production",
+              "proxyConfig": "proxy.config.json"
             },
             "development": {
               "buildTarget": "bmw-lynnwood-app:build:development"
