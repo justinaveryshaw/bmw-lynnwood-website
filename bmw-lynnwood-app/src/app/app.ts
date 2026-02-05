@@ -11,6 +11,11 @@ import { Banner } from "./banner/banner";
   styleUrl: './app.scss'
 })
 export class App {
+
+  private isLoading = true;
+ 
+  constructor(private api: APIService) {}
+
   protected readonly title = signal('bmw-lynnwood-app');
 
   
