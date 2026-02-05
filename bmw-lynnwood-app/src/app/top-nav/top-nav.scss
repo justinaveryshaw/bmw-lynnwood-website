@@ -1,0 +1,20 @@
+.top-nav__wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 50%;
+
+    .top-nav__left, .top-nav__right {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 1fr;
+        width: 100%;
+        column-gap: 1em;
+    }
+
+}
+li {
+    color: white;
+    list-style: none;
+    // padding: 0 1em;
+    width: 100%;
+}

@@ -1,0 +1,18 @@
+{
+    "vin": "5ux...",
+
+    "make": "BMW",
+    "model": "X5640i",
+    "isNew": true,
+    "color": "purple",
+    "modelYear": 2026,
+    "packages": [
+        "technology",
+        "drivera assiostance",
+        "parking assistance"
+
+    ]
+
+
+
+}

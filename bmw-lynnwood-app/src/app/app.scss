@@ -1,5 +1,11 @@
 .main-wrapper {
-    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    .main-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
     .image-container {
 

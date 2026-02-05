@@ -1,0 +1,25 @@
+.banner__wrapper {
+    background-color: black;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 92% 1fr;
+
+    .banner__left, .banner__right {
+        display: inline-block;
+    }
+
+    .banner__right {
+        padding: 24PX;
+        height: 67.79px;
+    }
+
+    .banner__m-logo {
+        float:right;
+        width:43.43px;
+    
+
+    }
+    .banner__bmw-logo {
+        width: 74px;
+    }
+}
