@@ -1,0 +1,623 @@
+{
+    "categories": [
+        {
+            "name": "Make",
+            "selectionType": "multi",
+            "options": [
+                {
+                    "name": "BMW",
+                    "isSelected": false
+                }
+            ]
+        },
+        {
+            "name": "Model & Trim",
+            "selectionType": "multi",
+            "options": [
+                {
+                    "name": "2 Series",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "230i xDrive",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M240i xDrive",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M235 xDrive",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "3 Series",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "330i xDrive",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M340i xDrive",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "4 Series",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "430i xDrive Coupe",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M440i xDrive Coupe",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "430i xDrive GranCoupe",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M440i xDrive GranCoupe",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "430i xDrive Convertible",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M440i xDrive Convertible",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "5 Series",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "530i xDrive",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "540i xDrive",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "550e xDrive",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "7 Series",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "740i xDrive",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "750e xDrive",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "760i xDrive",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "i4",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "eDrive40",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "xDrive40",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M50",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "i5",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "eDrive40",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "xDrive40",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M60",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "i7",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "eDrive50",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "xDrive60",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M70",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "iX",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "xDrive45",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "xDrive60",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M70",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "M2",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "Coupe",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "CS",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "M3",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "Sedan",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "Competition",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "Competition xDrive",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "M4",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "Coupe",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "Competition Coupe",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "Competition xDrive Coupe",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "Competition xDrive Convertible"
+                        }
+                    ]
+                },
+                {
+                    "name": "M5",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "Sedan",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "Touring",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "M8",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "Competition Coupe",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "Competition GranCoupe",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "Competition Convertible",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "X1",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "xDrive28i",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M35i",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "X2",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "xDrive28i",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M35i",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "X3",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "30 xDrive",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M50 xDrive",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "X4",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "xDrive30i",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M40i xDrive",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "X5",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "xDrive40i",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "xDrive50e",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M60i",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "X5 M",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "Competition",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "X6",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "xDrive40i",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M60i",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "X7",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "xDrive40i",
+                            "isSelected": false
+                        },
+                        {
+                            "name": "M60i",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "XM",
+                    "isSelected": false,
+                    "trims": [
+                        {
+                            "name": "Label",
+                            "isSelected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Year",
+            "selectionType": "range",
+            "options": {
+                "begin": 2026,
+                "end": 2026
+            }
+        },
+        {
+            "name": "Status",
+            "selectionType": "multi",
+            "options": [
+                {
+                    "name": "In Stock",
+                    "isSelected": false
+                },
+                {
+                    "name": "In Transit",
+                    "isSelected": false
+                }
+            ]
+        },
+        {
+            "name": "Price",
+            "selectionType": "range",
+            "options": {
+                "begin": 40000,
+                "end": 171000
+            }
+        },
+        {
+            "name": "Body selectionType",
+            "selectionType": "multi",
+            "options": [
+                {
+                    "name": "SUV",
+                    "isSelected": false
+                },
+                {
+                    "name": "Convertible",
+                    "isSelected": false
+                },
+                {
+                    "name": "Coupe",
+                    "isSelected": false
+                },
+                {
+                    "name": "Sedan",
+                    "isSelected": false
+                }
+            ]
+        },
+        {
+            "name": "Body Style",
+            "selectionType": "multi",
+            "options": [
+                {
+                    "name": "Sports Activity Vehicle",
+                    "isSelected": false
+                },
+                {
+                    "name": "2dr Car",
+                    "isSelected": false
+                },
+                {
+                    "name": "4dr Car",
+                    "isSelected": false
+                },
+                {
+                    "name": "Convertible",
+                    "isSelected": false
+                },
+                {
+                    "name": "Coupe",
+                    "isSelected": false
+                },
+                {
+                    "name": "Gran Coupe",
+                    "isSelected": false
+                },
+                {
+                    "name": "Sedan",
+                    "isSelected": false
+                },
+                {
+                    "name": "SUV",
+                    "isSelected": false
+                }
+            ]
+        },
+        {
+            "name": "Location",
+            "selectionType": "multi",
+            "options": [
+                {
+                    "name": "Lynnwood, WA",
+                    "isSelected": false
+                }
+            ]
+        },
+        {
+            "name": "Color",
+            "selectionType": "multiCategory",
+            "options": {
+                "exterior": [
+                    {
+                        "name": "Black",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "Blue",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "Brown",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "Gray",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "Green",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "Other",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "Red",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "Silver",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "White",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "Yellow",
+                        "isSelected": false
+                    }
+                ],
+                "interior": [
+                    {
+                        "name": "Beige",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "Black",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "Brown",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "Gray",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "Ivory",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "Orange",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "Other",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "Red",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "Silver",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "White",
+                        "isSelected": false
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Fuel selectionType",
+            "selectionType": "multi",
+            "options": [
+                {
+                    "name": "Electric",
+                    "isSelected": false
+                },
+                {
+                    "name": "Gasoline",
+                    "isSelected": false
+                },
+                {
+                    "name": "Hybrid",
+                    "isSelected": false
+                }
+            ]
+        },
+        {
+            "name": "Drivetrain",
+            "selectionType": "multi",
+            "options": [
+                {
+                    "name": "AWD",
+                    "isSelected": false
+                },
+                {
+                    "name": "Other",
+                    "isSelected": false
+                },
+                {
+                    "name": "RWD",
+                    "isSelected": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "1234-5678-9123-4567",
+    "exteriorColor": "Black Sapphire",
+    "imageSrc": "https://bmwlynnwood.com/assets/images/9156025T.png",
+    "interiorColor": "Cognac",
+    "interiorMaterial": "Sensatec",
+    "isNew": false,
+    "modelName": "X3",
+    "modelYear": 2019,
+    "packages": ["Drive Assist Professional", "Park Assist Professional", "Premium", "M Sport"],
+    "stockNumber": "9156025T",
+    "VIN": "5UX53DP09156025"
+}

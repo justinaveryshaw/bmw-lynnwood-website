@@ -12,4 +12,6 @@ import { Banner } from "./banner/banner";
 })
 export class App {
   protected readonly title = signal('bmw-lynnwood-app');
+
+  
 }
