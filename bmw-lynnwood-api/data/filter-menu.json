@@ -3,6 +3,7 @@
         {
             "name": "Make",
             "selectionType": "multi",
+            "isExpanded": false,
             "options": [
                 {
                     "name": "BMW",
@@ -13,6 +14,7 @@
         {
             "name": "Model & Trim",
             "selectionType": "multi",
+            "isExpanded": false,
             "options": [
                 {
                     "name": "2 Series",
@@ -396,6 +398,7 @@
         {
             "name": "Year",
             "selectionType": "range",
+            "isExpanded": false,
             "options": {
                 "begin": 2026,
                 "end": 2026
@@ -404,6 +407,7 @@
         {
             "name": "Status",
             "selectionType": "multi",
+            "isExpanded": false,
             "options": [
                 {
                     "name": "In Stock",
@@ -418,14 +422,16 @@
         {
             "name": "Price",
             "selectionType": "range",
+            "isExpanded": false,
             "options": {
                 "begin": 40000,
                 "end": 171000
             }
         },
         {
-            "name": "Body selectionType",
+            "name": "Body Type",
             "selectionType": "multi",
+            "isExpanded": false,
             "options": [
                 {
                     "name": "SUV",
@@ -448,6 +454,7 @@
         {
             "name": "Body Style",
             "selectionType": "multi",
+            "isExpanded": false,
             "options": [
                 {
                     "name": "Sports Activity Vehicle",
@@ -486,6 +493,7 @@
         {
             "name": "Location",
             "selectionType": "multi",
+            "isExpanded": false,
             "options": [
                 {
                     "name": "Lynnwood, WA",
@@ -496,6 +504,7 @@
         {
             "name": "Color",
             "selectionType": "multiCategory",
+            "isExpanded": false,
             "options": {
                 "exterior": [
                     {
@@ -584,8 +593,9 @@
             }
         },
         {
-            "name": "Fuel selectionType",
+            "name": "Fuel Type",
             "selectionType": "multi",
+            "isExpanded": false,
             "options": [
                 {
                     "name": "Electric",
@@ -604,6 +614,7 @@
         {
             "name": "Drivetrain",
             "selectionType": "multi",
+            "isExpanded": false,
             "options": [
                 {
                     "name": "AWD",

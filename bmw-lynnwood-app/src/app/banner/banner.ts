@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterOutlet } from '@angular/router';
+// import { RouterLink, RouterOutlet } from '@angular/router';
+import { RouterLink } from '@angular/router';
 
 
 import { TopNav } from '../top-nav/top-nav';
@@ -8,7 +9,7 @@ import { TopNav } from '../top-nav/top-nav';
   selector: 'app-banner',
   imports: [
     RouterLink,
-    RouterOutlet,
+    // RouterOutlet,
     TopNav
   ],
   templateUrl: './banner.html',

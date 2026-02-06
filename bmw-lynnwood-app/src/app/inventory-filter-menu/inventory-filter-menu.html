@@ -1,0 +1,48 @@
+<span *ngIf="isLoading">Loading...</span>
+<div class="filter-menu__root basic-accordion" *ngIf="categories.length > 0"  ngAccordionGroup [multiExpandable]="false">
+    @for (category of categories; track $index) {
+        <div class="category-header" [ngClass]="{'category-header--expanded': category.isExpanded}" (click)="category.isExpanded = !category.isExpanded">
+            <span>{{category.name}}</span>
+            <i *ngIf="category.isExpanded">&minus;</i>
+            <i *ngIf="!category.isExpanded">&plus;</i>
+        </div>
+
+        <div class="category-options" *ngIf="category.isExpanded">
+            <div class="category-option" *ngFor="let option of category.options">
+                <input type="checkbox" [(ngModel)]="option.isSelected"/>
+                <span>{{option.name}}</span>
+
+                <!-- <div *ngIf="option.isSelected && option.trims" *ngFor="let trim of option.trims" class="panel-suboption-pane">
+                    <div >
+                        <input type="checkbox" [(ngModel)]="trim.isSelected"/>
+                        <span>{{trim.name}}</span>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    <!-- <h3 >
+        {{category.name}}
+        <span ngAccordionTrigger panelId="'q' + $index" #trigger1="ngAccordionTrigger" [expanded]="true">
+            <span
+                aria-hidden="true"
+                class="expand-icon"
+            ></span>
+        </span>
+    </h3>
+
+    <div ngAccordionPanel panelId="'q' + $index">
+        <ng-template ngAccordionContent>
+        <p>
+            Use <code>aria-expanded</code> on the button element. Set it to "true" when the content
+            panel is visible and "false" when the content is hidden. This is a crucial state indicator
+            for screen reader users.
+        </p>
+        </ng-template>
+    </div> -->
+    }
+</div>
+<!-- <ul>
+    <li *ngFor="let category of categories">
+        {{category?.name}}
+    </li>
+</ul> -->

@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { InventoryFilterMenu } from '../inventory-filter-menu/inventory-filter-menu';
 
 @Component({
   selector: 'app-new-inventory',
-  imports: [],
+  imports: [InventoryFilterMenu],
   templateUrl: './new-inventory.html',
   styleUrl: './new-inventory.scss'
 })
