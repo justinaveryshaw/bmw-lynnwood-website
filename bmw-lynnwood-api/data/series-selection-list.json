@@ -1,0 +1,84 @@
+{
+    "series": [
+        {
+            "name": "X1",
+            "imageSrcPath": "images/landing-series-img--X1.png"
+        },
+        {
+            "name": "X2",
+            "imageSrcPath": "images/landing-series-img--X2.png"
+        },
+        {
+            "name": "X3",
+            "imageSrcPath": "images/landing-series-img--X3.png"
+        },
+        {
+            "name": "X4",
+            "imageSrcPath": "images/landing-series-img--X4.png"
+        },
+        {
+            "name": "X5",
+            "imageSrcPath": "images/landing-series-img--X5.png"
+        },
+        {
+            "name": "X6",
+            "imageSrcPath": "images/landing-series-img--X6.png"
+        },
+        {
+            "name": "X7",
+            "imageSrcPath": "images/landing-series-img--X7.png"
+        },
+        {
+            "name": "2",
+            "imageSrcPath": "images/landing-series-img--2.png"
+        },
+        {
+            "name": "3",
+            "imageSrcPath": "images/landing-series-img--3.png"
+        },
+        {
+            "name": "4",
+            "imageSrcPath": "images/landing-series-img--4.png"
+        },
+        {
+            "name": "5",
+            "imageSrcPath": "images/landing-series-img--5.png"
+        },
+        {
+            "name": "7",
+            "imageSrcPath": "images/landing-series-img--7.png"
+        },
+        {
+            "name": "8",
+            "imageSrcPath": "images/landing-series-img--8.png"
+        },
+        {
+            "name": "Z4",
+            "imageSrcPath": "images/landing-series-img--Z4.png"
+        },
+        {
+            "name": "BMW M",
+            "imageSrcPath": "images/landing-series-img--bmwm.png"
+        },
+        {
+            "name": "XM",
+            "imageSrcPath": "images/landing-series-img--XM.png"
+        },
+        {
+            "name": "iX",
+            "imageSrcPath": "images/landing-series-img--iX.png"
+        },
+        {
+            "name": "i4",
+            "imageSrcPath": "images/landing-series-img--i4.png"
+        },
+        {
+            "name": "i5",
+            "imageSrcPath": "images/landing-series-img--i5.png"
+        },
+        {
+            "name": "i7",
+            "imageSrcPath": "images/landing-series-img--i7.png"
+        }
+    ]
+}
