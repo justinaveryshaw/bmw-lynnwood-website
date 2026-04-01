@@ -29,6 +29,14 @@ app.get('/api/inventory-list/:newOrUsed', (req, res) => {
     });
 });
 
+app.get('/api/series-selection-list', (req, res) => {
+    let responseData;
+    fs.readFile('data/series-selection-list.json', (err, data) => {
+        responseData = JSON.parse(data);
+        res.status(200).json(responseData);
+    });
+});
+
 // app.post('/', function (req, res) {
 //     console.log(req.body.name);
 //     res.end();
