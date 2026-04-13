@@ -1,6 +1,6 @@
 <span *ngIf="isLoading">Loading...</span>
 <div class="filter-menu__root basic-accordion" *ngIf="categories.length > 0"  ngAccordionGroup [multiExpandable]="false">
-    @for (category of categories; track $index) {
+    @for (category of categories; track $index) { 
         <div class="category-header" [ngClass]="{'category-header--expanded': category.isExpanded}" (click)="category.isExpanded = !category.isExpanded">
             <span>{{category.name}}</span>
             <i *ngIf="category.isExpanded">&minus;</i>

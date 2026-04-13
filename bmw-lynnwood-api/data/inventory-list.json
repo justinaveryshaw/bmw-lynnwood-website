@@ -1,0 +1,124 @@
+{
+    "vehicles": [
+        {
+            "imageSource": "images/2026-330xi--8F93442.jpg",
+            "vin": "3MW89CW01T8F93442",
+            "stockNumber": "8F93442",
+            "price": 60090,
+            "make": "BMW",
+            "model": "3 Series",
+            "trim": "330i xDrive",
+            "year": 2026,
+            "featureSummaryInfo": {},
+            "status": "In Stock",
+            "location": "BMW of Lynnwood",
+            "color": {
+                "exterior": "Dravit Grey Metallic",
+                "interior": "Tacora Red"
+            }
+        },
+        {
+            "imageSource": "images/2026-230xi--8F99179.jpg",
+            "vin": "3MW33CM00T8F99179",
+            "stockNumber": "8F99179",
+            "price": 51230,
+            "make": "BMW",
+            "model": "2 Series",
+            "trim": "230i xDrive",
+            "year": 2026,
+            "featureSummaryInfo": {},
+            "status": "In Stock",
+            "location": "BMW of Lynnwood",
+            "color": {
+                "exterior": "Vegas Red Metallic",
+                "interior": "Black"
+            }
+        }
+        ,
+        {
+            "imageSource": "images/2026-M4--CX13768.jpg",
+            "vin": "WBS33HK04TCX13768",
+            "stockNumber": "CX13768",
+            "price": 94010,
+            "make": "BMW",
+            "model": "M4",
+            "trim": "Competition xDrive",
+            "year": 2026,
+            "featureSummaryInfo": {},
+            "status": "In Stock",
+            "location": "BMW of Lynnwood",
+            "color": {
+                "exterior": "Alpine White",
+                "interior": "Silverstone/Black"
+            }
+        },
+        {
+            "imageSource": "images/2026-M850i--CX07854.jpg",
+            "vin": "WBAGV8C02TCX07854",
+            "stockNumber": "CX07854",
+            "price": 131950,
+            "make": "BMW",
+            "model": "8 Series",
+            "trim": "M850i xDrive",
+            "year": 2026,
+            "featureSummaryInfo": {},
+            "status": "In Stock",
+            "location": "BMW of Lynnwood",
+            "color": {
+                "exterior": "Daytona Violet Metallic",
+                "interior": "Special Order Upholstery"
+            }
+        },
+        {
+            "imageSource": "images/2026-X3-30--9324892.jpg",
+            "vin": "5UX53GP01T9324892",
+            "stockNumber": "9324892",
+            "price": 67050,
+            "make": "BMW",
+            "model": "X3",
+            "trim": "30 xDrive",
+            "year": 2026,
+            "featureSummaryInfo": {},
+            "status": "In Stock",
+            "location": "BMW of Lynnwood",
+            "color": {
+                "exterior": "Tanzanie Blue II Metallic",
+                "interior": "Black"
+            }
+        },
+        {
+            "imageSource": "images/2026-X5-40i--9329506.jpg",
+            "vin": "5UX23EU01T9329506",
+            "stockNumber": "9329506",
+            "price": 84425,
+            "make": "BMW",
+            "model": "X5",
+            "trim": "xDrive40i",
+            "year": 2026,
+            "featureSummaryInfo": {},
+            "status": "In Stock",
+            "location": "BMW of Lynnwood",
+            "color": {
+                "exterior": "Manhattan Green Metallic",
+                "interior": "Black"
+            }
+        },
+        {
+            "imageSource": "images/2026-XM-Label--9226405.jpg",
+            "vin": "5YM33CS00T9226405",
+            "stockNumber": "9226405",
+            "price": 163275,
+            "make": "BMW",
+            "model": "XM",
+            "trim": "Label",
+            "year": 2026,
+            "featureSummaryInfo": {},
+            "status": "In Stock",
+            "location": "BMW of Lynnwood",
+            "color": {
+                "exterior": "Dravit Grey Metallic",
+                "interior": "Black"
+            }
+        }
+    ]
+}

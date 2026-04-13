@@ -1,1 +1,156 @@
-<p>home works!</p>
+<div class="home__root">
+
+    <!-- 1. image carousel -->
+    <div class="home-carousel__container">
+
+        <!-- previous button -->
+        <i class="home-carousel__button fa fa-chevron-circle-left" (click)="previousImage()"></i>
+
+        <!-- dynamic carousel image -->
+        <img class="home-carousel__image" [src]="carouselImages[shownImageIndex]"/>
+
+        <!-- next button -->
+        <i class="home-carousel__button fa fa-chevron-circle-right" (click)="nextImage()"></i>
+
+        <!-- <button class="home-carousel__button">Click Here For Offer Details</button> -->
+
+    </div>
+    <!-- 2. navigation container -->
+    <div class="home-navigation__container">
+        
+        <div class="home-navigation__buttons">
+            <button class="navigation-container__button">New Vehicles</button>
+            <button class="navigation-container__button">Pre-Owned Vehicles</button>
+            <button class="navigation-container__button">Current Offers</button>
+            <button class="navigation-container__button">Schedule Service</button>
+        </div>
+        <h2>278 Vehicles In Stock At Lynnwood! </h2>   
+        
+        <!-- Search Vehicle / Keyword / Budget -->
+        <div class="home-navigation__search-container">
+            <!-- Tabs -->
+            <div class="home-navigation__search-tabs">
+                
+                <!-- Vehicle -->
+                <div class="home-navigation__search-tab" 
+                    [ngClass]="{'home-navigation__search-tab--active': selectedSearchType === 'VEHICLE'}"
+                    (click)="selectSearchType('VEHICLE')"
+                >
+                    <i class="fa fa-filter"></i>
+                    <span>Vehicle</span>
+                </div>
+
+                <!-- Keyword -->
+                <div class="home-navigation__search-tab" 
+                    [ngClass]="{'home-navigation__search-tab--active': selectedSearchType === 'KEYWORD'}"
+                    (click)="selectSearchType('KEYWORD')"
+                >
+                    <i class="fa fa-search"></i>
+                    <span>Keyword</span>
+                </div>
+
+                <!-- Budget -->
+                <div class="home-navigation__search-tab" 
+                    [ngClass]="{'home-navigation__search-tab--active': selectedSearchType === 'BUDGET'}"
+                    (click)="selectSearchType('BUDGET')"
+                >
+                    <i class="fa fa-money"></i>
+                    <span>Budget</span>
+                </div>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="home-navigation__search-content">
+
+                <!-- Vehicle Make Model -->
+                <div class="home-navigation__search--vehicle-make-model" *ngIf="selectedSearchType === 'VEHICLE'">
+                    <select [(ngModel)]="searchInputSelection.vehicleType">
+                        @for (option of vehicleTypes; track $index) {
+                            <option [ngValue]="option.name">{{option.name}}</option>
+                        }
+                    </select>
+                    <select [(ngModel)]="searchInputSelection.vehicleMake">
+                        @for (option of vehicleMakes; track $index) {
+                            <option [ngValue]="option.name">{{option.name}}</option>
+                        }
+                    </select>
+                    <select [(ngModel)]="searchInputSelection.vehicleModel">
+                        @for (option of vehicleModels; track $index) {
+                            <option [ngValue]="option.name">{{option.name}}</option>
+                        }
+                    </select>
+                </div>
+
+                <!-- Keyword -->
+                <div class="home-navigation__search--keyword" *ngIf="selectedSearchType === 'KEYWORD'">
+                    KEYWORD
+                </div>
+
+                <!-- Budget - Min Max -->
+                <div class="home-navigation__search--budget" *ngIf="selectedSearchType === 'BUDGET'">
+                    BUDGET
+                </div>
+
+            </div>
+        </div>
+    
+    </div>
+    <!-- series selector -->
+    <div class="home-series__container">
+
+        <!-- left -->
+        <div class="home-series__left">
+            <h2>The {{selectedSeries.name}}</h2>
+            <button class="home-series__button">New</button>
+            <button class="home-series__button">Pre-owned</button>
+        </div>
+
+        <!-- right -->
+         <div class="home-series__right">
+            <img class="series-selection__image" [src]="selectedSeries.imageSrcPath">
+         </div>
+
+        <!-- bottom row -->
+        <div class="home-series__bottom">
+            <span> Series Selector:</span>
+
+            @for (series of seriesSelectionList; track $index) {
+                <span class="series-selection__link" 
+                    (click)="selectSeries(series)" 
+                    [ngClass]="{'series-selection__link--active': series.name === selectedSeries.name }"
+                >
+                    {{series.name}}
+                </span>
+                
+                @if ($index !== seriesSelectionList.length - 1) {
+                    <span class="series-selection__separator">&nbsp;/&nbsp;</span>
+                }
+            }
+            <!-- <span class="series-selection__link">X1</span>
+            <span class="series-selection__link">X2</span>
+            <span class="series-selection__link">X3</span>
+            <span class="series-selection__link">X4</span>
+            <span class="series-selection__link">X5</span>
+            <span class="series-selection__link">X6</span>
+            <span class="series-selection__link">X7</span>
+            <span class="series-selection__link">2</span>
+            <span class="series-selection__link">4</span>
+            <span class="series-selection__link">5</span>
+            <span class="series-selection__link">7</span>
+            <span class="series-selection__link">8</span>
+            <span class="series-selection__link">Z4</span>
+            <span class="series-selection__link">M Models</span>
+            <span class="series-selection__link">XM</span>
+            <span class="series-selection__link">iX</span>
+            <span class="series-selection__link">i4</span>
+            <span class="series-selection__link">i5</span>
+            <span class="series-selection__link">i7</span> -->
+        </div>
+
+
+    </div>
+
+
+</div>
+<!-- LOOK FOR BETTER LOADING SCREEN MOD ON CIV LATER -->
+<!-- DO NOT FORGET RUBBER PEN HOLDER!!!!!! -->

@@ -1,0 +1,40 @@
+{
+    "2026-04-01": {
+        "events": [
+            {
+                "name": "April Fools Day",
+                "type": "Holiday"
+            }
+        ]
+    },
+    "2026-04-02": {
+        "events": []
+    },
+    "2026-04-03": {
+        "events": [
+            {
+                "name": "Good Friday",
+                "type": "Holiday"
+            }
+        ]
+    },
+    "2026-04-04": {
+        "events": []
+    },
+    "2026-04-05": {
+        "events": [
+            {
+                "name": "Easter",
+                "type": "Holiday"
+            }
+        ]
+    },
+    "2026-04-08": {
+        "events": [
+            {
+                "name": "DEV DAY",
+                "type": "Holiday"
+            }
+        ]
+    }
+} 

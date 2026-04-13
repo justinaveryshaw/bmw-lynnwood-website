@@ -1,0 +1,55 @@
+{
+    "weeks": {
+        "1": [
+            {
+                "dateKey": "",
+                "dayName": "Monday",
+                "dayNumber": "",
+                "monthNumber": "",
+                "yearNumber": ""
+            },
+            {
+                "dateKey": "",
+                "dayName": "Tuesday",
+                "dayNumber": "",
+                "monthNumber": "",
+                "yearNumber": ""
+            },
+            {
+                "dateKey": "2026-04-01",
+                "dayName": "Wednesday",
+                "dayNumber": "1",
+                "monthNumber": "4",
+                "yearNumber": "2026"
+            },
+            {
+                "dateKey": "2026-04-02",
+                "dayName": "Thursday",
+                "dayNumber": "2",
+                "monthNumber": "4",
+                "yearNumber": "2026"
+            },
+            {
+                "dateKey": "2026-04-03",
+                "dayName": "Friday",
+                "dayNumber": "2",
+                "monthNumber": "4",
+                "yearNumber": "2026"
+            },
+            {
+                "dateKey": "2026-04-04",
+                "dayName": "Saturday",
+                "dayNumber": "2",
+                "monthNumber": "4",
+                "yearNumber": "2026"
+            },
+            {
+                "dateKey": "2026-04-05",
+                "dayName": "Sunday",
+                "dayNumber": "2",
+                "monthNumber": "4",
+                "yearNumber": "2026"
+            }
+        ]
+    }
+}

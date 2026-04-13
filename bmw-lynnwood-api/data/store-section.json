@@ -1,0 +1,201 @@
+{
+ 
+    
+    "sectionData": {
+        "feature": {
+            "order": 1,  
+            "inventory": [
+           
+            ]
+        },
+        "produce": {
+            "order": 2,
+            "inventory": [ 
+                {
+                    "name": "banana",
+                    "price": 1.00,
+                    "quantity": 6
+                },
+                {
+                    "name": "onion",
+                    "price": 0.95,
+                    "quantity": 4
+                },
+                {
+                    "name":"salad kit",
+                    "price": 8.00,
+                    "quantity": 1
+                }   
+            ]
+        },
+        "bulk": {
+            "order": 3,
+            "inventory": [
+                {
+                    "name": "trail mix",
+                    "price": 10.47,
+                    "quantity": 1,
+                    "weightInPounds": 1.5 
+                }
+            ]
+        },
+        "meatdeli": {
+            "order": 4,
+            "inventory": [ 
+                {
+                    "name": "chicken",
+                    "price": 8.50,
+                    "weightInPounds": 7.9 
+                    
+                },
+                {
+                    "name": "beef",
+                    "price": 9.5,
+                    "weightInPounds": 6
+                },
+                {
+                    "name": "pork tenderloin",
+                    "price": 89,
+                    "weightInPounds": 2
+                } 
+            ]
+        },
+        "dairy": {
+            "order": 5,
+            "inventory": [
+                {
+                    "name": "sliced cheese",
+                    "price": 4.00,
+                    "quantity": 1
+                },
+                {
+                    "name": "shredded cheese",
+                    "price": 3.00,
+                    "quantity": 1
+                },
+                {
+                    "name": "milk",
+                    "price": 2.00,
+                    "quantity": 2
+                },
+                {
+                    "name": "yogurt drinks",
+                    "price": 1.00,
+                    "quantity": 14
+                },
+                {
+                    "name": "eggs (12)",
+                    "price": 3.00,
+                    "quantity": 1
+                }
+            ]
+        },
+        "frozen": {
+            "order": 6,
+            "inventory": [
+                {
+                    "name": "frozen fruit",
+                    "price": 5.00,
+                    "quantity": 1
+                },
+                {
+                    "name": "burger patties",
+                    "price": 10,
+                    "quantity": 1
+                }
+            ]
+        },
+        "general": {
+            "order": 7,
+            "inventory": [
+                {
+                    "name": "coffee pot",
+                    "price": 47.00,
+                    "quantity": 1
+                }
+            ]
+        },
+        "bread": {
+            "order": 8,
+            "inventory": [
+                {
+                    "name": "bread loaf",
+                    "price": 2.00,
+                    "quantity": 1
+                },
+                {
+                    "name": "burger buns",
+                    "price": 2.00,
+                    "quantity": 1
+                },
+                {
+                    "name": "bagels",
+                    "price": 7.00,
+                    "quantity": 1
+                }
+            ]
+        },
+        "snack": {
+            "order": 9,
+            "inventory": [
+                
+            ]
+        },
+        "chips": {
+            "order": 10,
+            "inventory": [
+            ]
+        },
+        "ethnic(sand nig)": {
+            "order": 11,
+            "inventory": [
+
+            ]
+        },
+        "canned": {
+            "order": 12,
+            "inventory": [
+                
+            ]
+        },
+        "box": {
+            "order": 13,
+            "inventory": [
+                {
+                    "name": "penne",
+                    "price": 1.00,
+                    "quantity": 1
+                },
+                {
+                    "name": "pasta sauce",
+                    "price": 2.00,
+                    "quantity": 1
+                },
+                {
+                    "name": "hamburger helper",
+                    "price": 1.50,
+                    "quantity": 1
+                }
+            ]
+        },
+        "cooking": {
+            "order": 14,
+            "inventory": [
+                
+            ]
+        },
+        "pet": {
+            "order": 15,
+            "inventory": [
+
+            ]
+        },
+        "utensils": {
+            "order": 16,
+            "inventory": [
+                
+            ]
+        }
+    }
+}
+

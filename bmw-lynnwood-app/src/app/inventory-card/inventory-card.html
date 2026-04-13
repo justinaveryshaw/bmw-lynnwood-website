@@ -1,0 +1,111 @@
+<div class="inventory-card__root">
+    
+    <!-- 1. Image -->
+    <div class="vehicle-image__container">
+        
+        <img class="vehicle-image__image" [src]="vehicleData.imageSource"/>
+
+    </div>
+    
+    <!-- 2. Vehicle Info -->
+    <div class="vehicle-info__container">
+
+        <!-- Row 1 -->
+        <div class="vehicle-info__header">
+            <!-- Vehicle Year, Make, Model -->
+            <span class="vehicle-info__year-make-model">
+                <!-- {{vehicleInfo.year}} {{vehicleInfo.make}} {{vehicleInfo.model}} {{vehicleInfo.trim}} -->
+                 2026 BMW M4 Competition xDrive 
+            
+            </span>
+
+            <!-- Heart Icon -->
+            <i class="fa fa-heart"></i>
+
+            <!-- More Icon -->
+            <i class="fa fa-ellipsis-v"></i>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="vehicle-info__details">
+            
+            <!-- VIN and Stock -->
+            <div class="vehicle-info__details-section">
+                <span class="vehicle-info__vin">
+                    <!-- {{vehicleInfo.vin}} -->
+                     VIN: WBS33HK04TCX13768
+                </span>
+                <span class="vehicle-info__stock-number">
+                    <!-- {{vehicleInfo.stockNumber}} -->
+                     Stock: CX13768
+                </span>
+            </div>
+
+            <!-- Status and Color -->
+            <div class="vehicle-info__details-section">
+                <span class="vehicle-info__status">
+                    <!-- {{vehicleInfo.status}} -->
+                     In Stock
+                </span>
+                <span class="vehicle-info__colors">
+                    <span class="vehicle-info__exterior-color">
+                        <!-- {{vehicleInfo.color.exterior}} Ext. -->
+                         WHITE Ext.
+                    </span>
+                    <span class="vehicle-info__interior-color">
+                        <!-- {{vehicleInfo.color.interior}} -->
+                         GREY Int.
+                    </span>
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 3. Feature Info -->
+    <div class="summary-info__container">
+        <div class="feature-icon__container">
+            <i class="fa fa-bluetooth-b"></i>
+            <i class="fa fa-android"></i>
+            <i class="fa fa-info-circle"></i>
+            <i class="fa fa-car">
+                
+            </i>
+
+        </div>
+        <div class="dealer-comment-icon__container">
+            <i class="fa fa-file-text-o">
+
+            </i>
+        </div>
+
+    </div>
+
+    <!-- 4. Price -->
+    <div class="price__container">
+        <span class="vehicle-info__price">
+            <!-- {{ vehicleInfo.price }} -->
+            $94,010
+        </span>
+    </div>
+
+    <!-- 5. Buttons -->
+    <div class="buttons__container">
+        <button class="reveal-offer-button">Reveal Exclusive Offer</button>
+        <button class="schedule-test-drive-button">Schedule Test Drive</button>
+    </div>
+
+    <!-- 6. Logo-->
+    <div class="logo__container">
+        <img src="images/m-logo.png"/>
+        BMW of Lynnwood
+    </div>
+
+    <!-- 7. Compare -->
+    <div class="compare__container">
+        <input type="checkbox" name="compare"/>
+        <label for="compare">Compare Vehicle</label>
+    </div>
+
+</div>

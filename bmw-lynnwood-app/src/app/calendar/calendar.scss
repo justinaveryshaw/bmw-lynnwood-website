@@ -1,0 +1,142 @@
+.calendar__root {
+
+    .shopping__buttons-container {
+        .shopping__button {
+            &:hover {
+            background-color: green;
+            cursor: pointer; 
+        }
+        }
+        
+        display:grid;
+        grid-auto-flow: row;
+        grid-template-rows: 10% 10% 5%;
+        row-gap: 1em;
+        padding-top: 10em;
+            
+    }
+    display: grid;
+    width: 100%;
+    grid-auto-flow: row;
+
+    .calendar__nav {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: center;
+        column-gap: 1em; 
+        // april 2026
+        .calendar__nav-month { 
+            font-size: 1.5em;
+        }
+        .calendar__nav-year {
+            font-size: 1.5em;
+        }
+    }
+
+    .calendar__week-day-names {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        .calendar__week-day-name {
+            .calendar__week-day-name-text {
+                color: purple;
+            }
+        }
+    }
+
+    
+    // boxes
+    .calendar__week { 
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        .calendar__week-day {
+            // TODO USE DYNAMIC HEIGHT
+            height: 4em;
+            border: 1px solid black;
+            .calendar__week-day-number {
+                color: red;
+
+            }
+            &.calendar__week-day--empty {
+                background-color: grey;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .shopping__title {
+        display: grid;
+        justify-content: center;
+        padding-top: 5em;
+            .title__words {
+                font-size: 1.5em;
+            }
+
+    }
+    
+
+         
+        
+
+
+    
+
+
+
+    // boxes
+    .shopping__boxes-nav {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: center;
+        padding-top: 10em;
+        grid-template-columns: 20% 1% 20%;
+        column-gap: 10em;
+
+        
+        
+
+        .shopping__boxes-nav-left , .shopping__boxes-nav-right{
+            display: grid;
+            grid-auto-flow: row;
+            // grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            .shopping__boxes {
+                height: 4em;
+                border: 1px solid black;
+                background-color: red;
+
+                
+            }
+            
+        }
+        
+
+        
+            
+
+        
+    
+
+    }
+    
+}   
+
+
+
+
+

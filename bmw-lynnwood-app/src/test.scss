@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+
+    .page__div {
+        background-color: grey;
+        font-weight: bold;
+
+    }
+
+    .page__div--1 {
+        span {
+            color: green;
+        }
+
+        span:nth-child(2) {
+            color: purple;
+
+        }
+    }
+
+    .page__div--2 {
+        color: burlywood;
+    }
+
+    .page__div--3 {
+        color: red;
+
+        span:nth-child(3) {
+            color: hotpink;
+            padding: 0px 0px 0px 3px;
+        }
+    }
+
+
+}

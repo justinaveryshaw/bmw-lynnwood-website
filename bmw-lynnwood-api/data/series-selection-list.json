@@ -2,31 +2,31 @@
     "series": [
         {
             "name": "X1",
-            "imageSrcPath": "images/landing-series-img--X1.png"
+            "imageSrcPath": "images/landing-series-img--x1.png"
         },
         {
             "name": "X2",
-            "imageSrcPath": "images/landing-series-img--X2.png"
+            "imageSrcPath": "images/landing-series-img--x2.png"
         },
         {
             "name": "X3",
-            "imageSrcPath": "images/landing-series-img--X3.png"
+            "imageSrcPath": "images/landing-series-img--x3.png"
         },
         {
             "name": "X4",
-            "imageSrcPath": "images/landing-series-img--X4.png"
+            "imageSrcPath": "images/landing-series-img--x4.png"
         },
         {
             "name": "X5",
-            "imageSrcPath": "images/landing-series-img--X5.png"
+            "imageSrcPath": "images/landing-series-img--x5.png"
         },
         {
             "name": "X6",
-            "imageSrcPath": "images/landing-series-img--X6.png"
+            "imageSrcPath": "images/landing-series-img--x6.png"
         },
         {
             "name": "X7",
-            "imageSrcPath": "images/landing-series-img--X7.png"
+            "imageSrcPath": "images/landing-series-img--x7.png"
         },
         {
             "name": "2",
@@ -54,7 +54,7 @@
         },
         {
             "name": "Z4",
-            "imageSrcPath": "images/landing-series-img--Z4.png"
+            "imageSrcPath": "images/landing-series-img--z4.png"
         },
         {
             "name": "BMW M",
@@ -62,11 +62,11 @@
         },
         {
             "name": "XM",
-            "imageSrcPath": "images/landing-series-img--XM.png"
+            "imageSrcPath": "images/landing-series-img--zm.png"
         },
         {
             "name": "iX",
-            "imageSrcPath": "images/landing-series-img--iX.png"
+            "imageSrcPath": "images/landing-series-img--ix.png"
         },
         {
             "name": "i4",

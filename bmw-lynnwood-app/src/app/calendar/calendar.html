@@ -1,0 +1,263 @@
+<p>calendar works!</p>
+<!-- Outer container -->
+<div class="calendar__root">
+
+    <!-- month year title -->
+    <div class="calendar__nav">
+        <span class="calendar__nav-month">{{ selectedDay | date: 'LLLL' }}</span>
+        <span class="calendar__nav-year">{{ selectedDay | date: 'yyyy' }}</span>
+    </div>
+
+    <!-- days of week names(row) -->
+    <div class="calendar__week-day-names">
+        <!-- individual name -->
+        <div class="calendar__week-day-name">
+            <span class="calendar__week-day-name-text">Monday</span>
+        </div>
+        <div class="calendar__week-day-name">
+            <span class="calendar__week-day-name-text">Tuesday</span>
+        </div>
+        <div class="calendar__week-day-name">
+            <span class="calendar__week-day-name-text">Wednesday</span>
+        </div>
+        <div class="calendar__week-day-name">
+            <span class="calendar__week-day-name-text">Thursday</span>
+        </div>
+        <div class="calendar__week-day-name">
+            <span class="calendar__week-day-name-text">Friday</span>
+        </div>
+        <div class="calendar__week-day-name">
+            <span class="calendar__week-day-name-text">Saturday</span>
+        </div>
+        <div class="calendar__week-day-name">
+            <span class="calendar__week-day-name-text">Sunday</span>
+        </div>
+
+    </div>
+
+    <!-- weeks in month(row) -->
+    <div class="calendar__week">
+        <!-- individual day in week -->
+        <div class="calendar__week-day calendar__week-day--empty">
+            <!-- day number -->
+            <span class="calendar__week-day-number">&nbsp;</span>
+        </div>
+        <div class="calendar__week-day calendar__week-day--empty">
+
+            <span class="calendar__week-day-number">&nbsp;</span>
+
+        </div>
+        <div class="calendar__week-day">
+
+            <span class="calendar__week-day-number">1</span>
+
+        </div>
+        <div class="calendar__week-day">
+
+            <span class="calendar__week-day-number">2</span>
+
+        </div>
+        <div class="calendar__week-day">
+
+            <span class="calendar__week-day-number">3</span>
+
+        </div>
+        <div class="calendar__week-day">
+
+            <span class="calendar__week-day-number">4</span>
+
+        </div>
+        <div class="calendar__week-day">
+
+            <span class="calendar__week-day-number">5</span>
+
+        </div>
+
+    </div>
+
+    <div class = "shopping__title">
+        <span class = title__words>Logan's Shopping Crashout Simulator</span>
+    </div>
+
+
+    <!-- <div class = "shopping__boxes-nav-left">
+            
+        <span class = "shopping__boxes">1</span>
+
+    </div>
+    <div class = "shopping__boxes-nav-left">
+
+        <span class = "shopping__boxes">2</span>
+
+    </div>
+     <div class = "shopping__boxes-nav-left">
+
+        <span class = "shopping__boxes">2</span>
+
+    </div>
+     <div class = "shopping__boxes-nav-left">
+
+        <span class = "shopping__boxes">2</span>
+
+    </div>
+     <div class = "shopping__boxes-nav-left">
+
+        <span class = "shopping__boxes">2</span>
+
+    </div>
+     <div class = "shopping__boxes-nav-left">
+
+        <span class = "shopping__boxes">2</span>
+
+    </div>
+     <div class = "shopping__boxes-nav-left">
+
+        <span class = "shopping__boxes">2</span>
+
+    </div>
+     <div class = "shopping__boxes-nav-left">
+
+        <span class = "shopping__boxes">2</span>
+
+    </div>
+     <div class = "shopping__boxes-nav-left">
+
+        <span class = "shopping__boxes">2</span>
+
+    </div> -->
+     
+
+    <!-- left number list  -->
+<!-- 
+    <div class = "numbers__list-nav">
+
+
+
+        <div class = "content__number-list-left">
+
+            <span class = "number__for-left">1</span>
+
+            <span class = "number__for-left">2</span>
+
+            <span class = "number__for-left">3</span>
+
+            <span class = "number__for-left">4</span>
+
+            <span class = "number__for-left">5</span>
+
+            <span class = "number__for-left">6</span>
+
+            <span class = "number__for-left">7</span>
+
+            <span class = "number__for-left">8</span>
+
+            <span class = "number__for-left">9</span>
+
+            <span class = "number__for-left">10</span>
+
+            <span class = "number__for-left">11</span>
+
+        </div>     -->
+    <!-- right number list -->
+        <!-- <div class = "content__number-list-right">
+
+            <span class = "number__for-right">12</span>
+
+            <span class = "number__for-right">13</span>
+
+            <span class = "number__for-right">14</span>
+
+            <span class = "number__for-right">15</span>
+
+            <span class = "number__for-right">16</span>
+
+            <span class = "number__for-right">17</span>
+
+            <span class = "number__for-right">18</span>
+
+            <span class = "number__for-right">19</span>
+
+            <span class = "number__for-right">20</span>
+
+            <span class = "number__for-right">21</span>
+
+            <span class = "number__for-right">22</span>
+
+        </div>
+ -->
+
+    <div class="shopping__boxes-nav">
+        
+        <!-- Left -->
+        <div class = "shopping__boxes-nav-left">
+
+            <span class = "shopping__boxes">1</span>
+
+            <span class = "shopping__boxes">2</span>
+
+            <span class = "shopping__boxes">3</span>
+
+            <span class = "shopping__boxes">4</span>
+
+            <span class = "shopping__boxes">5</span>
+
+            <span class = "shopping__boxes">6</span>
+
+            <span class = "shopping__boxes">7</span>
+
+            <span class = "shopping__boxes">8</span>
+
+            <span class = "shopping__boxes">9</span>
+
+            <span class = "shopping__boxes">10</span>
+
+            <span class = "shopping__boxes">11</span>
+        
+        </div>
+        <!-- buttons -->
+        <div class = shopping__buttons-container>
+            <button class = "shopping__button">Start</button>
+            <button class = "shopping__button">Next</button>
+            <button class = "shopping__button">End</button>
+         </div>
+
+        <!-- Right -->
+        <div class = "shopping__boxes-nav-right">
+
+            <span class = "shopping__boxes">12</span>
+
+            <span class = "shopping__boxes">13</span>
+            
+            <span class = "shopping__boxes">14</span>
+
+            <span class = "shopping__boxes">15</span>
+
+            <span class = "shopping__boxes">16</span>
+
+            <span class = "shopping__boxes">17</span>
+
+            <span class = "shopping__boxes">18</span>
+
+            <span class = "shopping__boxes">19</span>
+
+            <span class = "shopping__boxes">20</span>
+
+            <span class = "shopping__boxes">21</span>
+
+            <span class = "shopping__boxes">2</span>
+
+        </div>
+        
+
+
+ 
+
+    
+
+    
+
+</div>
+
+
+
+

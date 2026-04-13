@@ -1,0 +1,104 @@
+// $card-column-width: 25%;
+
+.inventory-card__root {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    .vehicle-image__container {
+        
+        .vehicle-image__image {
+            width: 100%;
+        }
+    }
+
+    .vehicle-info__container {
+        padding: 1em;
+        .vehicle-info__header {
+            display: grid;
+            grid-template-columns: 75% 1fr 1fr;
+            .vehicle-info__year-make-model {
+                font-weight: bold;
+            }
+            i {
+                justify-self: center;
+            }
+        } 
+        .vehicle-info__details {
+            .vehicle-info__details-section {
+                
+                padding: 0.5em 0 0 0;
+                &:first-child {
+                    border-bottom: 2px solid #f4f5f7;
+                }
+                .vehicle-info__vin, .vehicle-info__stock-number {
+                    font-size: 10px;
+                }
+            }
+        }   
+    }
+
+    .summary-info__container {
+        display: grid;
+        grid-template-columns: 85% 1fr;
+        padding: 1em;
+        font-size: 20px;
+
+
+        .feature-icon__container {
+            i {
+                padding: 0 1em;
+    
+            }
+        
+        }
+        .dealer-comment-icon__container {
+
+        }
+
+    }
+
+    .price__container {
+        text-align: center;
+    }
+
+    .buttons__container {
+        padding: 1em;
+        display: grid;
+        grid-template-rows: 1fr;
+        row-gap: 1em;
+
+        .reveal-offer-button {
+            background-color: BLACK;
+            font-size: 16px;
+        }
+        .schedule-test-drive-button {
+            background-color: #1c69d3;
+            font-size: 14px;
+        }
+        button {
+            display:block;
+            width: 100%;
+            color: white;
+            font-weight: bold;
+            padding: 1em;
+            border-color: transparent;
+            
+
+
+        }
+    }
+
+    .logo__container {
+        display: grid;
+        justify-content: center;
+        padding: 1em; 
+        background-color: gray;
+    }
+
+    .compare__container {
+        padding: 1em;
+    }
+
+
+}
